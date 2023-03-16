@@ -1,26 +1,26 @@
 # FAO-Crop-Analysis-ML
 
 ## Data Preprocessing:
-● We acquired the data from the FAO and World Data Bank website
+- We acquired the data from the FAO and World Data Bank website
 mentioned in the documentation.
-● From the FAO website we got Area Harvested (Feature), Production
+- From the FAO website we got Area Harvested (Feature), Production
 (Feature) and Yield (Target) data.
-● From the World Data Bank website we got Precipitation, Minimum
+- From the World Data Bank website we got Precipitation, Minimum
 Temperature, Maximum temperature and Mean Temperature data
 (Features).
-● The data acquired is for a single country (in our case India) from the
+- The data acquired is for a single country (in our case India) from the
 year 1961 to 2020.
-● We merged the two datasets acquired into one single dataset using
+- We merged the two datasets acquired into one single dataset using
 the common Year column.
-● We encoded the Item Code Column / Feature.
-● We removed the unwanted and redundant columns from the data set
+- We encoded the Item Code Column / Feature.
+- We removed the unwanted and redundant columns from the data set
 according to feature importance.
-● We then check for non-null values in each column so that those values
+- We then check for non-null values in each column so that those values
 could be trimmed off. We find that there is no null value in any column.
-● We use two datasets in this work:
-1. Dataset with All the crops in FAO website
-2. Dataset with only One crop (banana) in FAO website
-● Data Analysis is done and explained in the code below clearly.
+- We use two datasets in this work:
+  - Dataset with All the crops in FAO website
+  - Dataset with only One crop (banana) in FAO website
+- Data Analysis is done and explained in the code below clearly.
 
 ## Relationship between features:
 The features in consideration were production, area harvested, item code,
